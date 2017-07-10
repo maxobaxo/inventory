@@ -26,7 +26,6 @@
 
     $app->post("/added", function() use ($app) {
         $added_item = $_GET['new_item'];
-
         return $app['twig']->render('added.html.twig', array('new_item' => $added_item));
     });
 
