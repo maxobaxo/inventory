@@ -20,8 +20,8 @@
         function testGetId()
         {
             //Arrange
-            $test_item_name = "Geronimo's Rifle";
-            $test_item = new Inventory($test_item_name);
+            $item_name = "lemurs";
+            $test_item = new Inventory($item_name);
             $test_item->save();
 
             //Act

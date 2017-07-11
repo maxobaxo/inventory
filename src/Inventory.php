@@ -4,7 +4,7 @@
         private $item_name;
         private $id;
 
-        function __constructor($item_name, $id = null)
+        function __construct($item_name, $id = null)
         {
             $this->item_name = $item_name;
             $this->id = $id;
